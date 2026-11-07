@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="./travel_recommendation.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">Travel Recommendation</div>
+
+      <ul>
+        <li><a href="travel_recommendation.html">Home</a></li>
+        <li><a href="./about_us.html">About Us</a></li>
+        <li><a href="./contact_us.html">Contact Us</a></li>
+      </ul>
+      <div class="search-container">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Enter a destination or keyword"
+        />
+        <button id="searchBtn">Search</button>
+        <button id="clearBtn">Clear</button>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+      <section class="hero">
+        <h1>EXPLORE DREAM DESTINATION</h1>
+        <p>
+          Discover beautiful destinations around the world. explore different
+          cultures, experience new adventures, and find your next travel
+          destination with us.
+        </p>
+
+        <button id="bookNowBtn">Book Now</button>
+      </section>
+
+      <!-- Search Reasults -->
+      <section id="results"></section>
+      <script src="./travel_recommendation.js"></script>
+    </main>
+  </body>
+</html>
