@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 15px 30px;
+  box-shadow: 0 2px 8px rgb(0, 0, 0, 0.1);
+  gap: 20px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #087f8c;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav ul a:hover {
+  color: #087f8c;
+}
+
+/* Search */
+.search-container {
+  display: flex;
+  gap: 8px;
+}
+
+.search-container input {
+  padding: 10px;
+  width: 220px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #087f8c;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #05636d;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+/* Hero Section */
+.hero {
+  min-height: 85vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./images/hero-section.png") center/cover no-repeat;
+  max-width: 100%;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: start;
+  padding: 60px 10%;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 55px;
+  max-width: 600px;
+  margin-bottom: 25px;
+}
+
+.hero p {
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 550px;
+  margin-bottom: 25px;
+}
+
+#bookNowBtn {
+  padding: 14px 28px;
+  font-size: 16px;
+}
+
+/* Search Results */
+#results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  nav {
+    flex-wrap: wrap;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .search-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .search-container input {
+    width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+}
