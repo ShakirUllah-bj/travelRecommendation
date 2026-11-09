@@ -67,9 +67,12 @@ async function searchRecommendations() {
 
   // country search
   else if (["country", "countries"].includes(keyword)) {
-    travelData.temples.map((item) => ({ ...item, category: "Temple" }));
-  } else if (["temple", "temples"].includes(keyword)) {
     recommendations = getCountryRecommendations();
+  } else if (["temple", "temples"].includes(keyword)) {
+    recommendations = travelData.temples.map((item) => ({
+      ...item,
+      category: "Temple",
+    }));
   }
 
   // Search by destination name or description

@@ -75,7 +75,7 @@ button:hover {
   min-height: 85vh;
   background:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("./images/hero-section.png") center/cover no-repeat;
+    url("./images/hero-section-logo.jpg") center/cover no-repeat;
   max-width: 100%;
   width: 100vw;
 
@@ -146,4 +146,39 @@ button:hover {
   .hero h1 {
     font-size: 32px;
   }
+}
+
+/* Recommendation card styling */
+.result-card {
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-sizing: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.result-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h3 {
+  margin-bottom: 15px;
+  color: #087f8c;
+}
+
+.card-content p {
+  line-height: 1.5;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.card-content span {
+  font-weight: bold;
+  color: #087f8c;
 }
