@@ -182,3 +182,34 @@ button:hover {
   font-weight: bold;
   color: #087f8c;
 }
+
+/* About Us Page Styling */
+.about-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  line-height: 1.8;
+}
+
+.about-container h1 {
+  color: #087f8c;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-container h2 {
+  color: #087f8c;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.about-container p {
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.about-container ul {
+  padding-left: 25px;
+}
