@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travel Recommendation</title>
+    <title>TravelBloom</title>
     <link rel="stylesheet" href="./travel_recommendation.css" />
   </head>
   <body>
     <!-- Navigation Bar -->
     <nav>
-      <div class="logo">Travel Recommendation</div>
+      <div class="logo">TravelBloom</div>
 
       <ul>
         <li><a href="travel_recommendation.html">Home</a></li>
@@ -27,21 +27,45 @@
       </div>
     </nav>
 
+    <!-- Social Media Sidebar -->
+
+    <aside class="social-sidebar">
+      <a href="https://twitter.com/" target="_blank" aria-label="Twitter"
+        >twitter</a
+      >
+      <a href="https://facebook.com/" target="_blank" aria-label="Facebook"
+        >facebook</a
+      >
+      <a href="https://instagram.com/" target="_blank" aria-label="Instagram"
+        >instagram</a
+      >
+      <a href="https://youtube.com/" target="_blank" aria-label="Youtube"
+        >YouTube</a
+      >
+    </aside>
+
     <!-- Main Content -->
     <main>
       <section class="hero">
         <h1>EXPLORE DREAM DESTINATION</h1>
         <p>
-          Discover beautiful destinations around the world. explore different
-          cultures, experience new adventures, and find your next travel
-          destination with us.
+          The Travel Recommendation App helps users explore popular travel
+          destinations and user-friendly interface. It allows users to search
+          for beaches, temples, countries, or specific country names to view
+          related cities along with images and desriptions. The app dynamically
+          fetches data from a structured JSON file to display relevant results.
+          It provides a simple and efficient way to discover and plan travel
+          destinations.
         </p>
 
         <button id="bookNowBtn">Book Now</button>
       </section>
 
       <!-- Search Reasults -->
-      <section id="results"></section>
+      <section id="results-section">
+        <h2 id="resultsHeading">Search Results</h2>
+        <div id="results"></div>
+      </section>
       <script src="./travel_recommendation.js"></script>
     </main>
   </body>
