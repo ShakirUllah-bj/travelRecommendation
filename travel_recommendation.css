@@ -18,6 +18,9 @@ nav {
   padding: 12px 30px;
   gap: 20px;
   min-height: 50px;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
 .logo {
