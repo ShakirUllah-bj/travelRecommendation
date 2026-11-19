@@ -2,7 +2,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   background-color: #222;
-  background-image: url("./images/hero-section-logo.jpg");
+  background-image: url("./images/bora_beach_polynesia.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -243,30 +243,75 @@ nav ul a:hover {
 /* About Us Page Styling */
 .about-container {
   max-width: 1000px;
-  margin: 50px auto;
-  padding: 30px;
-  background-color: white;
-  border-radius: 10px;
-  line-height: 1.8;
+  margin: 20px auto;
+  padding: 0 30px 40px;
+  color: white;
 }
 
 .about-container h1 {
-  color: #087f8c;
-  font-size: 36px;
-  margin-bottom: 20px;
+  color: white;
+  font-size: 46px;
+  margin: 0 0 5px;
 }
 
-.about-container h2 {
-  color: #087f8c;
-  margin-top: 25px;
-  margin-bottom: 10px;
+.about-description {
+  /* background-color: rgba(0, 25, 40, 0.65); */
+  padding: 15px;
+  border-radius: 3px;
+  margin: 5px 0 15px;
+  line-height: 1.5;
+  font-size: 14px;
 }
 
-.about-container p {
-  color: #444;
-  margin-bottom: 15px;
+.about-description p {
+  margin: 0 0 8px;
 }
 
-.about-container ul {
-  padding-left: 25px;
+.team-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 25px;
+  /* background-color: rgba(0, 25, 40, 0.65); */
+  padding: 20px 10px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.team-section h2 {
+  font-size: 38px;
+  text-align: left;
+  margin: 0;
+  max-width: 120px;
+}
+
+.team-member {
+  flex: 1;
+  max-width: 180px;
+}
+
+.team-icon {
+  background-color: white;
+  padding: 5px;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.team-member h3 {
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.team-member p {
+  font-size: 12px;
+  line-height: 1.4;
+  margin: 8px 0;
+}
+
+.team-member span {
+  display: inline-block;
+  background-color: #087f8c;
+  padding: 6px 15px;
+  border-radius: 20px;
+  font-size: 11px;
 }
