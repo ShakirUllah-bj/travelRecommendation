@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./travel_recommendation.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">TravelBloom</div>
+
+      <ul>
+        <li><a href="travel_recommendation.html">Home</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <!-- Social Media Sidebar -->
+
+    <aside class="social-sidebar">
+      <a href="https://twitter.com/" target="_blank" aria-label="Twitter"
+        >twitter</a
+      >
+      <a href="https://facebook.com/" target="_blank" aria-label="Facebook"
+        >facebook</a
+      >
+      <a href="https://instagram.com/" target="_blank" aria-label="Instagram"
+        >instagram</a
+      >
+      <a href="https://youtube.com/" target="_blank" aria-label="Youtube"
+        >YouTube</a
+      >
+    </aside>
+
+    <main class="contact-container">
+      <section class="contact-info">
+        <h1>CONTACT US</h1>
+        <p>Get in touch</p>
+      </section>
+
+      <!-- Contact Form -->
+      <form
+        class="contact-form"
+        action="mailto:shakir.edu304@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        />
+
+        <label for="email"> Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+
+        <label for="message">Message</label>
+        <textarea
+          name="message"
+          id="message"
+          rows="6"
+          placeholder="Enter your message"
+          required
+        ></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
